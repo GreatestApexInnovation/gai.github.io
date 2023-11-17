@@ -1,3 +1,10 @@
-.gai-red{
+.gai-bg-red{
     background-color: red;
+}
+.gai-bg-blue{
+    background-color: #0faae1ff;
+}
+.gai-font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
 }
