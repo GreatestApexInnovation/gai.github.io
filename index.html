@@ -9,6 +9,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<script type="text/javascript">
+  function open_Client(url){
+    window.location.href=url;
+  }
+</script>
+
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
@@ -113,7 +119,7 @@ body {font-family: "Lato", sans-serif}
            Our comprehensive platform combines the effectiveness of video lessons, interactive surveys, engaging quizzes,
             and personalized one-on-one virtual coaching sessions to provide a holistic and tailored approach to development. <br>It is integrated with Facebook Messenger and easy to use it. 
         </p>
-        <div>  <button class="w3-button w3-red w3-section" type="submit">View Product</button> </div>
+        <div>  <button class="w3-button w3-red w3-section" type="submit" onclick="open_Client('https://www.facebook.com/messages/t/104842742606140');">View Product</button> </div>
       </div>
     </div>
   </div>
@@ -125,10 +131,8 @@ body {font-family: "Lato", sans-serif}
       <h2 class="w3-wide w3-center gai-font">Our Clients</h2>
       <p class="w3-opacity w3-center"><i></i></p><br>
 
-
-
         <div class="w3-third w3-margin-bottom" >
-         <a href="https://www.facebook.com/profile.php?id=61551483087570" target="blank"><img src="image/techkits.jpg" alt="TechKits" style="width:80%; border-radius:50%;" class="w3-hover-opacity" ></a>
+        <img src="image/techkits.jpg" onclick="open_Client('https://www.facebook.com/profile.php?id=61551483087570');" alt="TechKits" style="width:80%; border-radius:50%;" class="w3-hover-opacity" >
           <div class="w3-container w3-white w3-center">
             <p><b></b></p>
           </div>
